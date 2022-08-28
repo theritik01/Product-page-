@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+  width: 100%; 
+}
+h1{
+  text-align: center;
+  color: #28e0b2;
+}
+div.gallery {
+  height:250px;
+  width: 250px;
+  background-color: orange;
+  margin: 5px;
+  border: 2px solid #6b6363;
+  float: left;
+  width: 180px;
+  border-radius:5px;
+  box-shadow:0 2px 2px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777
+}
+.gallery:hover{
+  background-color: #f2ec33;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center; 
+  color: #1c15e8;
+}
+div.k button{
+/*   text-align:center; */
+  background-color: #28e0b2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    font-size: 20px;
+}
+div.p{
+  text-align:center;
+}
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+} */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
